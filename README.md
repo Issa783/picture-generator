@@ -1,4 +1,4 @@
-# My Travelling Journal
+# Image Generator
 Welcome to my Image Generator webpage!This webpage randomly generates new images on clicking the get new image button.
 
 You can access the live version of the Readme file by clicking this link: 
