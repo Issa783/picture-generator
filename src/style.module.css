@@ -76,3 +76,24 @@
     width:477px;
     height: auto;
 }
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 4px;
+}
+.txtgenerate {
+    position: relative;
+}
+.toptext {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 190px;
+}
+.bottomtext {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 190px;
+}
+
