@@ -1,6 +1,5 @@
-import React,{useState} from "react";
+import React,{useEffect,useState} from "react";
 import styles from "../style.module.css";
-import Memesdata from "../memesdata";
 
 function Meme(){
     
@@ -12,8 +11,8 @@ function Meme(){
         });
         function getMemeImage(event){
             event.preventDefault();
-        const randomNumber = Math.floor(Math.random() * allMemeImages.length)
-        const url = allMemeImages[randomNumber].url
+        const randomNumber = Math.floor(Math.random() * allMeme.length)
+        const url = allMeme[randomNumber].url
         setmeme(prevState => ({
             ...prevState,randomImage:url
         }))
