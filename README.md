@@ -1,5 +1,5 @@
 # Image Generator
-Welcome to my Image Generator webpage!This webpage randomly generates new images on clicking the get new image button.
+Welcome to my Meme Generator webpage!This webpage randomly generates new images on clicking the get new image button.
 
 
 ## Tools
@@ -16,11 +16,11 @@ The website is developed using;
 To set up this project, follow these steps:
 1. Clone this repository to your local machine:
 ```
-https://github.com/Issa783/image-generator.git
+https://github.com/Issa783/picture-generator.git
 ```
 2. Navigate to your project directory
 ```
-cd Image-generator
+cd picture-generator
 ```
 3. Run this code command either in gitbash or command prompt to install dependencies:
 ```
@@ -30,7 +30,7 @@ npm install
 ```
 npm start
 ```
-Now, you can view the Digital Business Card in your web browser at http://localhost:3000.
+Now, you can view the Meme Generator in your web browser at http://localhost:3000.
 ## Screenshots
 ![Image Generator](./src/images/generator1.PNG)
 ## Author
